@@ -257,15 +257,5 @@ def calculate_fid_given_paths(paths, batch_size, cuda, dims):
 if __name__ == '__main__':
     args = parser.parse_args()
     os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-    paths = [
-        '',
-        '',
-    ]
-    print('path[0]=', paths[0])
-    print('path[1]=', paths[1])
 
-    fid_value = calculate_fid_given_paths(paths,
-                                          args.batch_size,
-                                          args.gpu,
-                                          args.dims)
     print('FID: ', fid_value)
