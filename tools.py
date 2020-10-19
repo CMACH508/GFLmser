@@ -1,15 +1,13 @@
 import numpy as np
 import cv2 as cv
 
-names = ['celea_60000_SFD_1.npy', 'celea_60000_SFD_2.npy', 'celea_60000_SFD_3.npy', 'LS3D.npy', 'SRtrainset_2.npy',
-         'vggcrop_test_lp10.npy', 'vggcrop_train_lp10_1.npy', 'vggcrop_train_lp10_2.npy', 'vggcrop_train_lp10_3.npy',
-         'vggcrop_train_lp10_4.npy', 'vggcrop_train_lp10_5.npy']
+names = []
 
 
 def change_resolution(file):
-    # file = 'celea_60000_SFD_1.npy'
-    dir = '/home/lipeiying/program/_SR_/Lmser_GAN/dataset/HR_64x64/' + file
-    save_path = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/training_set/HR_noise_64x64_v2/' + file
+    # file = ''
+    dir = '' + file
+    save_path = '' + file
     data_hr = np.load(dir)
     img_list = []
     for i in range(len(data_hr)):
@@ -30,8 +28,8 @@ from PIL import Image
 
 
 def testset():
-    dir = '/home/lipeiying/program/_SR_/Lmser_GAN/dataset/LS3D_6000_label'
-    save_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/LS3D_noise_64x64'
+    dir = ''
+    save_dir = ''
     test_names = os.listdir(dir)
     test_names.sort()
     for name in test_names:
@@ -44,18 +42,17 @@ def testset():
 # testset()
 
 def filter():
-    new_npy = '/home/lipeiying/program/_SR_/Lmser_GAN/dataset/HR_64x64/LS3D.npy'
+    new_npy = ''
 
-    dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/new_dataset'
-    save_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/LS3D_label'
-    hr_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/LS3D_64x64'
-    lr_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/LS3D_16x16'
-    noise_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/LS3D_noise_64x64'
+    dir = ''
+    save_dir = ''
+    hr_dir = ''
+    lr_dir = ''
 
-    celea_hr = '/home/lipeiying/program/_SR_/Lmser_GAN/dataset/HR_64x64/HR'
-    celea_hr1 = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/celea_64x64'
-    celea_noise_hr = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/celea_noise_64x64'
-    celea_lr = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/celea_16x16'
+    celea_hr = ''
+    celea_hr1 = ''
+    celea_noise_hr = ''
+    celea_lr = ''
     cnt = 0
     test_names = os.listdir(save_dir)
     test_names.sort()
@@ -92,12 +89,12 @@ def filter():
 
 
 def filter_1():
-    label_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/LS3D_label'
+    label_dir = ''
 
-    hr_npy = '/home/lipeiying/program/_SR_/Lmser_GAN/dataset/HR_64x64/LS3D.npy'
-    hr_noise_npy = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/training_set/HR_noise_64x64/LS3D.npy'
-    hr_noise_npy_v2 = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/training_set/HR_noise_64x64_v2/LS3D.npy'
-    lr_npy = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/training_set/LR_16x16/LS3D.npy'
+    hr_npy = ''
+    hr_noise_npy = ''
+    hr_noise_npy_v2 = ''
+    lr_npy = ''
 
     names = os.listdir(label_dir)
     hr_list, lr_list, noise_list, noise_v2_list = [], [], [], []
@@ -127,7 +124,7 @@ def filter_1():
 # filter_1()
 
 def test():
-    path = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/training_set/HR_noise_64x64/LS3D.npy'
+    path = ''
     data = np.load(path)
     print(len(data))
 
@@ -138,7 +135,7 @@ import random
 
 
 def change_name():
-    dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/test_set/'
+    dir = ''
     lr = dir + 'TestSet_16x16'
     hr = dir + 'TestSet_64x64'
     hr_noise = dir + 'TestSet_noise_64x64'
@@ -261,8 +258,3 @@ class psnr4(nn.Module):
 
         return (self.max_val - 10 * torch.log(mse) / self.base10).data
 
-# path1 = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/ckpt_1/img/1_hr_label.jpg'
-# path2 = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/ckpt_1/img/1_hr_noise.jpg'
-# psnr1(path1, path2)
-# psnr2(path1, path2)
-# psnr3(path1, path2)
