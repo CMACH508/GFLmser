@@ -1,0 +1,130 @@
+nohup: ignoring input
+===> Build Model
+===> Training
+learning_rate =  0.001
+===> Epoch[1](1/10):g_loss:0.23132, L2_Loss:1.52929, D_Loss: 0.51176, lmser_Loss: 0.03966
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](2/10):g_loss:0.25680, L2_Loss:0.05747, D_Loss: 0.24642, lmser_Loss: 0.00070
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](3/10):g_loss:0.25252, L2_Loss:0.02643, D_Loss: 0.24961, lmser_Loss: 0.00038
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](4/10):g_loss:0.25211, L2_Loss:0.04296, D_Loss: 0.26015, lmser_Loss: 0.00037
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](5/10):g_loss:0.24876, L2_Loss:0.02467, D_Loss: 0.25352, lmser_Loss: 0.00035
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](6/10):g_loss:0.24800, L2_Loss:0.02106, D_Loss: 0.25238, lmser_Loss: 0.00031
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](7/10):g_loss:0.24890, L2_Loss:0.01564, D_Loss: 0.25152, lmser_Loss: 0.00025
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](8/10):g_loss:0.24773, L2_Loss:0.01091, D_Loss: 0.25246, lmser_Loss: 0.00018
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](9/10):g_loss:0.25001, L2_Loss:0.01131, D_Loss: 0.25011, lmser_Loss: 0.00016
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[1](10/10):g_loss:0.24784, L2_Loss:0.01050, D_Loss: 0.25255, lmser_Loss: 0.00015
+Checkpoint saved to ckpt_gate/model/lmser_2.pth
+Checkpoint saved to ckpt_gate/model/discriminator_2.pth
+===> Epoch[2](1/10):g_loss:0.25198, L2_Loss:0.00922, D_Loss: 0.24821, lmser_Loss: 0.00012
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](2/10):g_loss:0.24794, L2_Loss:0.00854, D_Loss: 0.25217, lmser_Loss: 0.00012
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](3/10):g_loss:0.25257, L2_Loss:0.00807, D_Loss: 0.24753, lmser_Loss: 0.00012
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](4/10):g_loss:0.24819, L2_Loss:0.00848, D_Loss: 0.25193, lmser_Loss: 0.00011
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](5/10):g_loss:0.25015, L2_Loss:0.00798, D_Loss: 0.24993, lmser_Loss: 0.00009
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](6/10):g_loss:0.24964, L2_Loss:0.00618, D_Loss: 0.25046, lmser_Loss: 0.00008
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](7/10):g_loss:0.24948, L2_Loss:0.00548, D_Loss: 0.25061, lmser_Loss: 0.00008
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](8/10):g_loss:0.24948, L2_Loss:0.00780, D_Loss: 0.25060, lmser_Loss: 0.00013
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](9/10):g_loss:0.25051, L2_Loss:0.00527, D_Loss: 0.24955, lmser_Loss: 0.00007
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[2](10/10):g_loss:0.24678, L2_Loss:0.00577, D_Loss: 0.25331, lmser_Loss: 0.00007
+Checkpoint saved to ckpt_gate/model/lmser_3.pth
+Checkpoint saved to ckpt_gate/model/discriminator_3.pth
+===> Epoch[3](1/10):g_loss:0.24665, L2_Loss:0.00435, D_Loss: 0.25346, lmser_Loss: 0.00006
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](2/10):g_loss:0.24798, L2_Loss:0.00475, D_Loss: 0.25212, lmser_Loss: 0.00005
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](3/10):g_loss:0.25715, L2_Loss:0.00498, D_Loss: 0.24374, lmser_Loss: 0.00007
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](4/10):g_loss:0.24913, L2_Loss:0.00582, D_Loss: 0.25094, lmser_Loss: 0.00007
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](5/10):g_loss:0.24958, L2_Loss:0.00381, D_Loss: 0.25049, lmser_Loss: 0.00005
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](6/10):g_loss:0.24980, L2_Loss:0.00554, D_Loss: 0.25024, lmser_Loss: 0.00007
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](7/10):g_loss:0.24864, L2_Loss:4.30075, D_Loss: 0.25291, lmser_Loss: 0.08848
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](8/10):g_loss:0.25155, L2_Loss:4.37360, D_Loss: 0.24845, lmser_Loss: 0.08980
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](9/10):g_loss:0.24981, L2_Loss:4.37395, D_Loss: 0.25019, lmser_Loss: 0.08998
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[3](10/10):g_loss:0.22417, L2_Loss:4.47775, D_Loss: 0.27971, lmser_Loss: 0.09244
+Checkpoint saved to ckpt_gate/model/lmser_4.pth
+Checkpoint saved to ckpt_gate/model/discriminator_4.pth
+===> Epoch[4](1/10):g_loss:0.25454, L2_Loss:4.87975, D_Loss: 0.24550, lmser_Loss: 0.10090
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](2/10):g_loss:0.24750, L2_Loss:5.09656, D_Loss: 0.25253, lmser_Loss: 0.10540
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](3/10):g_loss:0.24994, L2_Loss:4.75994, D_Loss: 0.25006, lmser_Loss: 0.09841
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](4/10):g_loss:0.24988, L2_Loss:4.58377, D_Loss: 0.25012, lmser_Loss: 0.09486
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](5/10):g_loss:0.25000, L2_Loss:4.63288, D_Loss: 0.25000, lmser_Loss: 0.09539
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](6/10):g_loss:0.25000, L2_Loss:4.27127, D_Loss: 0.25000, lmser_Loss: 0.08776
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](7/10):g_loss:0.25000, L2_Loss:4.56924, D_Loss: 0.25000, lmser_Loss: 0.09401
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](8/10):g_loss:0.25089, L2_Loss:4.57784, D_Loss: 0.24911, lmser_Loss: 0.09401
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](9/10):g_loss:0.25006, L2_Loss:4.16891, D_Loss: 0.24994, lmser_Loss: 0.08578
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[4](10/10):g_loss:0.24930, L2_Loss:4.26114, D_Loss: 0.25071, lmser_Loss: 0.08759
+Checkpoint saved to ckpt_gate/model/lmser_5.pth
+Checkpoint saved to ckpt_gate/model/discriminator_5.pth
+===> Epoch[5](1/10):g_loss:0.25085, L2_Loss:5.07690, D_Loss: 0.24915, lmser_Loss: 0.10521
+Checkpoint saved to ckpt_gate/model/lmser_6.pth
+Checkpoint saved to ckpt_gate/model/discriminator_6.pth
+===> Epoch[5](2/10):g_loss:0.25004, L2_Loss:5.14824, D_Loss: 0.24996, lmser_Loss: 0.10648
+Checkpoint saved to ckpt_gate/model/lmser_6.pth
+Checkpoint saved to ckpt_gate/model/discriminator_6.pth
