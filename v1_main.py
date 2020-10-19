@@ -52,10 +52,10 @@ def train():
     start_epoch = 1
 
     if args.is_resume:
-        path_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/ckpt_1/model'
-        checkpoint_lmser_up = torch.load(join(path_dir, 'lmser_up-81.pth'))
-        checkpoint_lmser_down = torch.load(join(path_dir, 'lmser_down-81.pth'))
-        # checkpoint_dis = torch.load(join(path_dir, 'discriminator-81.pth'))
+        path_dir = ''
+        checkpoint_lmser_up = torch.load(join(path_dir, ''))
+        checkpoint_lmser_down = torch.load(join(path_dir, ''))
+        # checkpoint_dis = torch.load(join(path_dir, ''))
         start_epoch = checkpoint_lmser_up["epoch"] + 1
         lmser_up.load_state_dict(checkpoint_lmser_up["model"].state_dict())
         lmser_down.load_state_dict(checkpoint_lmser_down["model"].state_dict())
@@ -162,8 +162,4 @@ def save_checkpoint(model, epoch, name):
 if __name__ == '__main__':
     train()
 
-    # model_paths = ['/home/lipeiying/program/_SR_/Lmser_GAN/Lmser/pre_trained/pre_lmser_11.pth',
-    #                '/home/lipeiying/program/_SR_/Lmser_GAN/Lmser/pre_trained/pre_discriminator_11.pth']
-    # train(cuda='1', resume=True, paths=model_paths, ckpt='ckpt_skip_pre')
-
-    # train(cuda='0', ckpt='ckpt_skip')
+   
