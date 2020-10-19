@@ -13,12 +13,6 @@ import shutil
 from PIL import Image
 import cv2 as cv
 
-# from high_to_low
-# from high_to_low
-# from high_to_low
-# from high_to_low
-# from high_to_low
-
 os.environ['cuda_visible_devices'] = '1'
 hyper = Hyper.Hyperparameters
 
