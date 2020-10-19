@@ -17,13 +17,13 @@ args = parser.parse_args()
 os.environ["CUDA_VISIBLE_DEVICES"] = args.cuda
 
 
-save_dir = os.path.abspath('./dataset/res')
+save_dir = os.path.abspath('')
 def eval():
     cnt = 1
     avg = 0.0
-    # model_path = '/home/lipeiying/program/_SR_/Lmser_GAN/skip_model/lmser_200_skip.pth'
-    model_up = './ckpt_2/model/lmser_up-128.pth'
-    model_down = './ckpt_2/model/lmser_down-128.pth'
+    # model_path = ''
+    model_up = ''
+    model_down = ''
     dataset = v1_data_set.TestDataset()
     loader = DataLoader(dataset, shuffle=True, batch_size=args.batch_size, drop_last=True)
     print('len=', len(loader))
@@ -60,8 +60,8 @@ def eval():
 def get_res(save_dir, cnt):
     avg = 0
     for i in range(args.batch_size):
-        img_fake_hr = join(save_dir, str(cnt+i) + '_fake_hr.jpg')
-        img_hr = join(save_dir, str(cnt+i) + '_hr.jpg')
+        img_fake_hr = join(save_dir, str(cnt+i) + '')
+        img_hr = join(save_dir, str(cnt+i) + '')
         # p = psnr4(img_fake_hr, img_hr)
         p = utils.psnr(img_fake_hr, img_hr)
         avg += p
