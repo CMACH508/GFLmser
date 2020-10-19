@@ -53,7 +53,7 @@ from inception import InceptionV3
 
 parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
 parser.add_argument('--gene_path', type=str,
-                    default='/home/lipeiying/program/_SR_/Lmser_GAN/low_to_high/result/res43',
+                    default='',
                     help=('Path to the generated images or '
                           'to .npz statistic files'))
 '''64 192 768 2048'''
@@ -258,8 +258,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     os.environ['CUDA_VISIBLE_DEVICES'] = '1'
     paths = [
-        '/home/lipeiying/program/_SR_/SR_GAN/result/images',
-        '/home/lipeiying/program/_SR_/Lmser_GAN/dataset/SRtrainset_2',
+        '',
+        '',
     ]
     print('path[0]=', paths[0])
     print('path[1]=', paths[1])
