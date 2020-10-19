@@ -4,16 +4,12 @@ import os, glob
 from torch.utils.data import Dataset
 from os.path import join
 
-names = ['LS3D.npy', 'celea_60000_SFD_1.npy', 'celea_60000_SFD_2.npy', 'LS3D.npy', 'celea_60000_SFD_3.npy', 'SRtrainset_2.npy',
-         'LS3D.npy',
-         'vggcrop_test_lp10.npy', 'vggcrop_train_lp10_1.npy', 'LS3D.npy', 'vggcrop_train_lp10_2.npy', 'LS3D.npy',
-         'vggcrop_train_lp10_3.npy',
-         'vggcrop_train_lp10_4.npy', 'LS3D.npy', 'vggcrop_train_lp10_5.npy', 'LS3D.npy']
+names = []
 
-Dis_path = '/home/lipeiying/program/_SR_/Lmser_GAN/dataset/LR_16x16/wider_lnew.npy'
-HR_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/dataset/HR_64x64'
-LR_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/training_set/LR_16x16'
-HR_noise_dir = '/home/lipeiying/program/_SR_/Lmser_GAN/lmser_release/dataset/training_set/HR_noise_64x64'
+Dis_path = ''
+HR_dir = ''
+LR_dir = ''
+HR_noise_dir = ''
 
 
 def prepare_data(img):
