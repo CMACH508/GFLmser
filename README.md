@@ -22,6 +22,10 @@ python 3.6
 torch 1.6.0
 torchvision 0.7.0 
 cudatoolkit 9.2
+opencv
+numpy
+scipy
+PIL
 ```
 
 ### Train
