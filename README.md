@@ -39,6 +39,10 @@ For testing the model, you need to run:
 python v1_eval.py
 ```
 
+
+### Contact
+lipeiying@sjtu.edu.cn
+
 ### citation
 
 ```
