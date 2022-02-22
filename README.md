@@ -1,6 +1,10 @@
 # FGLmser
 This is an implementation of 'GAN Flexible Lmser for Super-resolution'  https://dl.acm.org/doi/abs/10.1145/3343031.3350952
 
+Peiying Li, Shikui Tu, and Lei Xu, 
+"GAN Flexible Lmser for Super-resolution." 
+In Proceedings of the 27th ACM International Conference on Multimedia (MM2019), pp. 756-764. ACM, 2019
+
 Existing single image super-resolution (SISR) methods usually focus on Low-Resolution (LR) images which are artificially generated from High-Resolution (HR) images by a down-sampling process, but are not robust for unmatched training set and testing set. This paper proposes a GAN Flexible Lmser (GFLmser) network that bidirectionally learns the High-to-Low (H2L) process that degrades HR images to LR images and the Low-to-High (L2H) process that recovers the LR images back to HR images. The two directions share the same architecture, added with the gated skip connections from the H2L-net to the L2H-net in order to enhance information transferring for super-resolution. In comparison with several related state-of-the-art methods, experiments demonstrate that not only GFLmser is the most robust method on images of unmatched training set and testing set, but also its performance on real-world face LR images is best in PSNR and reasonably good in FID.
 For FID testing, please infer https://github.com/mseitzer/pytorch-fid to do your FID test.
 You can download dataset files from here:https://jbox.sjtu.edu.cn/l/T1q9qS, passwd:skyn
@@ -46,10 +50,11 @@ lipeiying@sjtu.edu.cn
 ### citation
 
 ```
-@inproceedings{2019GAN,
-  title={GAN Flexible Lmser for Super-resolution},
-  author={ Li, Peiying  and  Tu, Shikui  and  Xu, Lei },
-  booktitle={the 27th ACM International Conference},
-  year={2019},
+@inproceedings{li2019gan,
+  title={GAN flexible Lmser for super-resolution},
+  author={Li, Peiying and Tu, Shikui and Xu, Lei},
+  booktitle={Proceedings of the 27th ACM International Conference on Multimedia},
+  pages={756--764},
+  year={2019}
 }
 ```
